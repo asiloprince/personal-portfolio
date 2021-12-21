@@ -1,0 +1,46 @@
+.navigation_container{
+    background-color: var(--nav-color);
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: var(--font-color) !important;
+}
+.navbar-light .navbar-brand{
+    color: var(--font-color) !important;
+}
+.navbar-light .navbar-toggler-icon{
+    filter: invert(1)
+}
+
+.links a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0em;
+    
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+  }
+.links a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+.links a:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+  
+.logo{
+    height: 30px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}

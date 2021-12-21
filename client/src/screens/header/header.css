@@ -1,0 +1,34 @@
+.main-info{
+    display: flex;
+    position: absolute;
+    color: var(--font-color);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    
+}
+.colz{
+    display: flex;
+    justify-content: center;
+}
+.lnk{
+    display: flex;
+    background: #e3edf7;
+    opacity: 0.9;
+    height: 45px;
+    width: 45px;
+    margin: 0 15px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    content: icon;
+}
+h3{
+    text-align:center;
+    position: relative;
+}

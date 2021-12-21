@@ -1,0 +1,54 @@
+.portfolio {
+    background-color: aqua;
+  }
+  
+  .portfolio-main-container h1, 
+  .portfolio-main-container p {
+    text-align: center;
+    margin-top: 3rem;
+  }
+  
+  #portfolio-card-container {
+    width: 50%;
+    padding: 10px;
+    border: none;
+   
+  }
+  
+  .portfolio-image:hover {
+    cursor: pointer;
+    filter: brightness(50%);
+  }
+  
+  .portfolio-click-info {
+    position: absolute;
+    top: 50%;  
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    color: var(--font-color);
+    display: none;
+  }
+  
+  .portfolio-image:hover + .portfolio-click-info {
+    display: block;
+  }
+  
+  .modal-backdrop.show {
+    opacity: .1 !important;
+  }
+  
+  #portfolio-modal-link {
+    padding: 0 0 1rem 1rem
+  }
+  
+  #portfolio-modal-link:link {
+    text-decoration: none;
+  }
+  
+  @media only screen and (max-width: 600px){
+      #portfolio-card-container {
+      width: 100%;
+      padding: 0.5rem 2.5rem;
+      border: none;
+    }
+  }

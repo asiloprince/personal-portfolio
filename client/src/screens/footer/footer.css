@@ -1,0 +1,44 @@
+.footer-container{
+    background-color: var(--nav-color);
+    margin-top: 2%;
+    height: 60vh;
+  }
+  .footer-content{
+  padding: 3%;
+  }
+  
+  .footer-container h6{
+    color:#fff;
+   margin-bottom: 1%;
+    text-align: center;
+  }
+  .logo-footer{
+    height: 30px;
+    text-align: center; 
+}
+
+.footer-paragraph p{
+  font-weight: 100;
+  font-size: small;
+  color:#fff;
+  text-align: center;
+ margin: auto;
+}
+.footer-icons{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-link{
+  display: flex;
+  background: #e3edf7;
+  opacity: 0.5;
+  height: 30px;
+  width: 30px;
+  margin: 0 15px;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+  content: icon;
+}
