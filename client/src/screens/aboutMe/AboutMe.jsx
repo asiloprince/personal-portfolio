@@ -266,7 +266,9 @@ function AboutMe() {
                 className="education-container"
 
             >
-                <div>Education</div>
+                <div>
+                    <h3>Education</h3>
+                </div>
                 <div className="education-content">
                     <div className="education-card">
                         <div className="education-bullets">

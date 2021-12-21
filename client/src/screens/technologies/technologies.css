@@ -5,6 +5,7 @@
     flex-direction: column;
     align-items: center;
     padding: 3rem;
+    width: 100%;
 }
 .techcards-container{
     display: flex;

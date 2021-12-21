@@ -65,7 +65,7 @@ function ContactMe() {
         <div id='contact'>
             <div className='main-container'>
                 <div>
-                    <h1 className='title' style={{ textAlign: 'center' }}>Contact Me</h1>
+                    <h1 className='title' style={{ textAlign: 'center', fontWeight: 'bold' }}>Contact Me</h1>
                 </div>
                 <br />
                 <div className="central-form">

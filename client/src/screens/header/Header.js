@@ -4,7 +4,7 @@ import Typed from 'react-typed'
 
 
 const intro = '<h3> Hello,</h3>'
-const name = ' <h2><strong>  I\'m Prince Gerald </h2> </strong>'
+const name = ' <h3><strong>  I\'m Prince Gerald </h3> </strong>'
 const dev = '<strong>Full-stack Developer.</strong>'
 
 function Header() {

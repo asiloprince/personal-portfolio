@@ -16,10 +16,11 @@ function App() {
       <Navigation />
       <Header />
       <ParticleAnimation
-        style={{ height: '96vh' }}
+        style={{ height: '90vh' }}
         background={{ r: 4, g: 4, b: 44, a: 1 }}
-        numParticles={100}
+        numParticles={60}
         particleSpeed={0.3}
+        interactive={true}
         particleRadius={1.5}
       />
       <AboutMe />
