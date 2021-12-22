@@ -16,7 +16,7 @@ function App() {
       <Navigation />
       <Header />
       <ParticleAnimation
-        style={{ height: '90vh' }}
+        style={{ height: '94vh' }}
         background={{ r: 4, g: 4, b: 44, a: 1 }}
         numParticles={60}
         particleSpeed={0.3}

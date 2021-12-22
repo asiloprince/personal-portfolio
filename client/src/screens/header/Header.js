@@ -24,10 +24,10 @@ function Header() {
                 <a className='lnk' href="https://github.com/asiloprince">
                     <i className="fa fa-github-alt " />
                 </a>
-                <a className='lnk' href="https://www.facebook.com/asilo.prince25">
+                <a className='lnk' href="https://www.facebook.com/">
                     <i className="fa fa-facebook-square " />
                 </a>
-                <a className='lnk' href="https://www.instagram.com/y9er_2/">
+                <a className='lnk' href="https://www.instagram.com/">
                     <i className="fa fa-instagram " />
                 </a>
                 <a className='lnk' href="https://www.reddit.com/">

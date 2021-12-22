@@ -1,12 +1,12 @@
 .cards{
-    display:flexbox;
-    position: absolute;
-    bottom: 5vh;
-    width: 90%;
-    margin:auto;
-    margin-bottom: 10px;
-    flex-direction: row;
-    box-shadow: 0 0px 20px -2px #1f2235;
+  display:flexbox;
+  position: absolute;
+  bottom: 5vh;
+  width: 90%;
+  margin:auto;
+  margin-bottom: 10px;
+  flex-direction: row;
+  box-shadow: 0 0px 20px -2px #1f2235;
 
 }
 .aboutme-container{
@@ -16,373 +16,317 @@ flex-direction: row;
 justify-content: space-evenly;
 align-items: center;
 background-color: var(--nav-color);
-height: 100vh;
+height: 100%;
 
 
 
 }
 
 .card-person{
-    display: flex;
-    position: absolute;
-    justify-content: center;
-    width: 50%;
-    object-fit: contain;
-    margin: auto;
-    margin-top: 10px;
-    padding: 10px;
-    box-shadow: 0 0px 5px -2px #1f2235;
-    margin-bottom: 1rem;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  width: 50%;
+  object-fit: contain;
+  margin: auto;
+  margin-top: 10px;
+  padding: 10px;
+  box-shadow: 0 0px 5px -2px #1f2235;
+  margin-bottom: 1rem;
 
-    
+  
 }
 
 .about-text{
-max-width: 500px;
-margin-right: 8px;
+max-width: 600px;
+margin-right: 20px;
 
 color: #fff;
 
 }
 .about-text h1{
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .overview{
-    align-items: center;
-    margin: 5px;
-    padding: 10px;
-    text-align: justify;
+  align-items: center;
+  margin: 5px;
+  padding: 10px;
+  text-align: justify;
 }
 
 /*media queries*/
-@media only screen and (max-width: 750px){
-    .aboutme-container{
-        flex-direction: column;
-    }  
-}
-@media only screen and (max-width: 750px){
-        .about-text{
-            max-width: 400px;
-          
-        }  
-    }
-@media only screen and (max-width: 700px){
-    .aboutme-container{
-        flex-direction: column;
-    }  
+@media only screen and (max-width: 900px){
+  .aboutme-container{
+      flex-direction: column;
+  }  
 }
 @media only screen and (max-width: 700px){
-        .about-text{
-            max-width: 400px;
-          
-        }  
+      .about-text{
+          max-width: 300px;
+      }  
+      .card-person{
+        width:380px; /* you can use % */
+        height: auto;
     }
-@media only screen and (max-width: 650px){
-    .aboutme-container{
-        flex-direction: column;
-    }  
-}
-@media only screen and (max-width: 650px){
-        .about-text{
-            max-width: 400px;
-          
-        }  
-    }
-/*media queries*/
-@media only screen and (max-width: 600px){
-    .aboutme-container{
-        flex-direction: column;
-    }  
-}
-@media only screen and (max-width: 600px){
-        .about-text{
-            max-width: 300px;
-          
-        }  
-    }
-@media only screen and (max-width: 550px){
-    .aboutme-container{
-        flex-direction: column;
-    }  
-}
-@media only screen and (max-width: 550px){
-        .about-text{
-            max-width: 300px;
-          
-        }  
-    }
-@media only screen and (max-width: 500px){
-    .aboutme-container{
-        flex-direction: column;
-    }  
-}
-@media only screen and (max-width: 500px){
-        .about-text{
-            max-width: 300px;
-          
-        }  
-    }
-@media only screen and (max-width: 450px){
-    .aboutme-container{
-        flex-direction: column;
-    }  
-}
-@media only screen and (max-width: 450px){
-        .about-text{
-            max-width: 300px;
-          
-        }  
-    }
+  }
 @media only screen and (max-width: 400px){
-    .aboutme-container{
-        flex-direction: column;
-    }  
-}
-@media only screen and (max-width: 400px){
-        .about-text{
-            max-width: 300px;
-          
-        }  
+      .about-text{
+          max-width: 250px;
+      }  
+      .card-person{
+        width:250px; /* you can use % */
+        height: auto;
     }
-    .education-container {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
-        min-height: fit-content;
-        margin: 120px 0;
-      }
+  }
+@media only screen and (max-width: 300px){
+      .about-text{
+          max-width: 200px;
+      }  
+      .card-person{
+        width:150px; /* you can use % */
+        height: auto;
+    }
+  }
+
+  .education-container {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      min-height: fit-content;
+      margin: 120px 0;
+    }
+    
+    .education-card {
+      display: flex;
+      height: 360px;
+      width: 1000px;
+      /* margin: 80px 0; */
+    }
+    
+    .education-bullets {
+      box-shadow: 15px 0 9px -15px #1f2235;
+      height: 100%;
+      width: 320px;
+    }
+    
+    .education-bullet-details {
+      flex-grow: 1;
+      width: 600px;
+      overflow: hidden;
+      padding: 0 0 0 80px;
+    }
+    
+    .experience-description {
+      margin: 10px 0 0 0;
+      text-align: justify;
+    }
+    
+    .education-description-text {
+      font-size: 12px;
+    }
+    
+    .education-details-carousal {
+      transition: transform 1s ease-out;
+    }
+    
+    .bullet-container {
+      display: flex;
+      align-items: center;
+      height: 100%;
+      width: 100%;
+      position: relative;
       
-      .education-card {
-        display: flex;
-        height: 360px;
-        width: 1000px;
-        /* margin: 80px 0; */
-      }
-      
-      .education-bullets {
-        box-shadow: 15px 0 9px -15px #1f2235;
-        height: 100%;
-        width: 320px;
-      }
-      
-      .education-bullet-details {
-        flex-grow: 1;
-        width: 600px;
-        overflow: hidden;
-        padding: 0 0 0 80px;
-      }
-      
-      .experience-description {
-        margin: 10px 0 0 0;
-        text-align: justify;
-      }
-      
-      .education-description-text {
-        font-size: 12px;
-      }
-      
-      .education-details-carousal {
-        transition: transform 1s ease-out;
-      }
-      
-      .bullet-container {
-        display: flex;
-        align-items: center;
-        height: 100%;
-        width: 100%;
-        position: relative;
-        
-      }
-      
-      .bullets {
-        width: 86%;
-        position: relative;
-        z-index: 1;
-      }
-      
-      .bullet {
-        display: flex;
-        align-items: center;
-        cursor: pointer;
-        background-color: var(--nav-color);
-        height: 40px;
-        margin: 15px 0;
-        padding: 0 8px;
-        border-radius: 20px;
-        width: 30px;
-        transition: width 0.6s ease;
-       
-       
-      }
-      
-      .bullet-label {
-        font-size: 14px;
-        white-space: nowrap;
-        font-family: "Montserrat";
-        text-align: justify;
-        text-justify: inter-word;
-      }
-      
-      .bullet-logo {
-        height: 16px;
-        margin: 0 30px 0 0;
-      }
-      
-      .bullet-icons {
-        width: 40px;
-        height: 90%;
-        z-index: 1;
-        border-radius: 12px;
-        background-color: var(--nav-color);
-        position: absolute;
-      }
-      
-      .selected-bullet {
-        color: #fff;
-        width: 100%;
-      }
-      
-      .education-screen-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        height: 360px;
-        width: 100%;
-      }
-      
-      .education-heading {
-        display: flex;
-        flex-direction: column;
-      }
-      
-      .education-main-heading {
-        position: relative;
-        display: flex;
-        justify-content: space-between;
-      }
-      
-      .education-main-heading span {
-        color: var(--dark-orange);
-        font-size: 16px;
-        font-family: "Poppins SemiBold";
-      }
-      
-      .experience-description {
-        max-width: 100%;
-      }
-      
-      .heading-bullet {
-        position: absolute;
-        left: -30px;
-        height: 15px;
-        width: 15px;
-        top: 5px;
+    }
+    
+    .bullets {
+      width: 86%;
+      position: relative;
+      z-index: 1;
+    }
+    
+    .bullet {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      background-color: var(--nav-color);
+      height: 40px;
+      margin: 15px 0;
+      padding: 0 8px;
+      border-radius: 20px;
+      width: 30px;
+      transition: width 0.6s ease;
      
-      }
-      
-      .education-sub-heading {
-        font-size: 14px;
-        font-family: "Poppins SemiBold";
-        color: var(--black);
-        margin: 10px 0 0 0;
-      }
-      
-      .education-heading-description {
-        font-size: 12px;
-        text-align: justify;
-      }
-      
-      .heading-date {
-        background-color: var(--nav-color);
-        padding: 4px 12px;
-        font-size: 14px;
-        border-radius: 14px;
-        font-weight: 500;
-        color: #03befc;
-      }
-      
-      .skill-parent {
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        width: 50%;
-      }
-      
-      .programming-skills-container {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        flex-wrap: wrap;
-      }
-      
-      .skill-percentage {
-        position: relative;
-        height: 15px;
-        width: 70%;
-        background-color: var(--nav-color);
+     
+    }
+    
+    .bullet-label {
+      font-size: 14px;
+      white-space: nowrap;
+      font-family: "Montserrat";
+      text-align: justify;
+      text-justify: inter-word;
+    }
+    
+    .bullet-logo {
+      height: 16px;
+      margin: 0 30px 0 0;
+    }
+    
+    .bullet-icons {
+      width: 40px;
+      height: 90%;
+      z-index: 1;
+      border-radius: 12px;
+      background-color: var(--nav-color);
+      position: absolute;
+    }
+    
+    .selected-bullet {
+      color: #fff;
+      width: 100%;
+    }
+    
+    .education-screen-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      height: 360px;
+      width: 100%;
+    }
+    
+    .education-heading {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .education-main-heading {
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    .education-main-heading span {
+      color: var(--dark-orange);
+      font-size: 16px;
+      font-family: "Poppins SemiBold";
+    }
+    
+    .experience-description {
+      max-width: 100%;
+    }
+    
+    .heading-bullet {
+      position: absolute;
+      left: -30px;
+      height: 15px;
+      width: 15px;
+      top: 5px;
+   
+    }
+    
+    .education-sub-heading {
+      font-size: 14px;
+      font-family: "Poppins SemiBold";
+      color: var(--black);
+      margin: 10px 0 0 0;
+    }
+    
+    .education-heading-description {
+      font-size: 12px;
+      text-align: justify;
+    }
+    
+    .heading-date {
+      background-color: var(--nav-color);
+      padding: 4px 12px;
+      font-size: 14px;
+      border-radius: 14px;
+      font-weight: 500;
+      color: #03befc;
+    }
+    
+    .skill-parent {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      width: 50%;
+    }
+    
+    .programming-skills-container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    
+    .skill-percentage {
+      position: relative;
+      height: 15px;
+      width: 70%;
+      background-color: var(--nav-color);
+    }
+  
+    
+    .skill-percentage .active-percentage-bar {
+      height: 15px;
+      transition: 0.8s ease;
+      position: absolute;
+      background-color: #03befc;
+    }
+    
+    .skill-parent span {
+      font-family: "Montserrat";
+      font-size: 16px;
+      color: var(--nav-color);
+    }
+    
+    /* IPAD PRO RESPONSIVENESS */
+    @media only screen and (max-width: 1110px) {
+      .education-card {
+        width: 880px;
       }
     
-      
-      .skill-percentage .active-percentage-bar {
-        height: 15px;
-        transition: 0.8s ease;
-        position: absolute;
-        background-color: #03befc;
+      .education-bullet-details {
+        padding: 0 0 0 70px;
       }
-      
-      .skill-parent span {
-        font-family: "Montserrat";
-        font-size: 16px;
-        color: var(--nav-color);
+    }
+    
+    /* IPAD RESPONSIVENESS */
+    @media only screen and (max-width: 1023px) {
+      .education-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
       }
-      
-      /* IPAD PRO RESPONSIVENESS */
-      @media only screen and (max-width: 1110px) {
-        .education-card {
-          width: 880px;
-        }
-      
-        .education-bullet-details {
-          padding: 0 0 0 70px;
-        }
+    
+      .bullets {
+        width: 90%;
       }
-      
-      /* IPAD RESPONSIVENESS */
-      @media only screen and (max-width: 1023px) {
-        .education-content {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-        }
-      
-        .bullets {
-          width: 90%;
-        }
-      
-        .education-card {
-          height: fit-content;
-          display: flex;
-          flex-direction: column;
-          margin: 30px 0;
-          align-items: center;
-          width: 90%;
-        }
-      
-        .education-bullet-details {
-          height: 360px;
-          padding: 0;
-          width: fit-content;
-        }
-      
-        .education-bullets {
-          margin: 30px 0;
-          width: 100%;
-        }
-      
-        .selected-bullet {
-          width: 100%;
-        }
+    
+      .education-card {
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        margin: 30px 0;
+        align-items: center;
+        width: 90%;
       }
+    
+      .education-bullet-details {
+        height: 360px;
+        padding: 0;
+        width: fit-content;
+      }
+    
+      .education-bullets {
+        margin: 30px 0;
+        width: 100%;
+      }
+    
+      .selected-bullet {
+        width: 100%;
+      }
+    }

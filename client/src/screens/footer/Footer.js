@@ -21,10 +21,10 @@ function Footer() {
                     <a className='footer-link' href="https://github.com/asiloprince">
                         <i className="fa fa-github-alt " />
                     </a>
-                    <a className='footer-link' href="https://www.facebook.com/asilo.prince25">
+                    <a className='footer-link' href="https://www.facebook.com/">
                         <i className="fa fa-facebook-square " />
                     </a>
-                    <a className='footer-link' href="https://www.instagram.com/y9er_2/">
+                    <a className='footer-link' href="https://www.instagram.com/">
                         <i className="fa fa-instagram " />
                     </a>
                     <a className='footer-link' href="https://www.reddit.com/">

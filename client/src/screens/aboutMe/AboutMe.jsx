@@ -236,7 +236,7 @@ function AboutMe() {
 
                         <section className='overview'><i className="fas fa-code mr-5"></i> I have built 5 projects since 2020.
                         </section>
-                        <section className='overview'> <i className="fas fa-graduation-cap"></i> I am a Second year Information Technology Student at Batangas State University.
+                        <section className='overview'> <i className="fas fa-graduation-cap"></i> I am a Second year IT Student at Batangas State University.
                         </section>
                         <section className='overview'> <i className="fab fa-dev"></i>  I am an aspiring full-stack developer.
                         </section>
