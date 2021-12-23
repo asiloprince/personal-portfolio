@@ -89,7 +89,7 @@ function ContactMe() {
                     </div>
                     <div className="back-form">
                         <div className="img-back">
-                            <h6>If you think I am qualified to work on your project, feel free to send me a message. However, if you have any other requests or questions, please don't hesitate to use the form.</h6>
+                            <p>If you think I am qualified to work on your project, feel free to send me a message. However, if you have any other requests or questions, please don't hesitate to use the form.</p>
                             <img src={getintouch} alt="" />
                         </div>
                         <form onSubmit={formSubmit}>

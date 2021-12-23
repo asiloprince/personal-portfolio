@@ -38,15 +38,15 @@ function AboutMe() {
     const educationBullets = [
         { label: "Education", logoSrc: "education.svg" },
         // { label: "Work History", logoSrc: "work-history.svg" },
-        { label: "My Skills", logoSrc: "programming-skills.svg" },
+        { label: "Skill Set", logoSrc: "programming-skills.svg" },
         { label: "Projects", logoSrc: "projects.svg" },
         { label: "Interests", logoSrc: "interests.png" },
     ];
 
     const programmingSkillsDetails = [
 
-        { skill: "HTML", ratingPercentage: 90 },
-        { skill: "CSS", ratingPercentage: 80 },
+        { skill: "HTML/CSS", ratingPercentage: 80 },
+        { skill: "AdobeXD", ratingPercentage: 70 },
         { skill: "JavaScript", ratingPercentage: 65 },
         { skill: "Django", ratingPercentage: 68 },
         { skill: "React JS", ratingPercentage: 50 },
@@ -87,7 +87,7 @@ function AboutMe() {
             />
             <EducationHeading
                 heading={"Gulod Senior High School"}
-                subHeading={"ICT"}
+                subHeading={""}
                 fromDate={"2018"}
                 toDate={"2020"}
             />
@@ -104,40 +104,7 @@ function AboutMe() {
                 toDate={"2013"}
             />
         </div>,
-        /* WORK EXPERIENCE */
-        // <div className="education-screen-container" key="work-experience">
-        //     <div className="experience-container">
-        //         <EducationHeading
-        //             heading={"Ehizeex Technoloy"}
-        //             subHeading={"FULL STACK DEVELOPER INTERN"}
-        //             fromDate={"2021"}
-        //             toDate={"Present"}
-        //         />
-        //         <div className="experience-description">
-        //             <span className="education-description-text">
-        //                 Currently working as MERN stack web and mobile developer and also an online instructor on udemy.
-        //             </span>
-        //         </div>
-        //         <div className="experience-description">
-        //             <span className="education-description-text">
-        //                 - Developed an ecommerce website for client with the dashboard for managing the products, managing reviews, users, payment etc.
-        //                 .
-        //             </span>
-        //             <br />
-        //             <span className="education-description-text">
-        //                 - Integrated the web app with backend services to create new user
-        //                 onboarding application with dynamic form content.{" "}
-        //             </span>
-        //             <br />
-        //             <span className="education-description-text">
-        //                 - I stretch my mental capacity to develope UI as per
-        //                 the given designs.
-        //             </span>
-        //             <br />
-        //         </div>
-        //     </div>
-        // </div>,
-        /* PROGRAMMING SKILLS */
+
         <div
             className="education-screen-container programming-skills-container"
             key="programming-skills"
@@ -172,11 +139,11 @@ function AboutMe() {
         <div className="education-screen-container" key="interests">
             <EducationHeading
                 heading="Reading"
-                description="love reading mystery novel, Reddit thread, and programming documentation. "
+                description="I love reading Reddit threads, programming documentation, and story-like content such as novels, movies, and manga. Stories can get people's attention and make things easier to understand and remember. I believe that if I can study all the patterns of the story and give my output a story, there will be a big return."
             />
             <EducationHeading
-                heading="Music"
-                description="Listening to my favorite music is something I can never compromise with, and that is the best stress reliever that I can get my hands on."
+                heading="Technology"
+                description='Technology has the power to change the lives of the world and individuals, as the phrase "well-developed science and technology is indistinguishable from magic." I want to be a person who can always catch up with the latest technology and respond to changes.'
             />
             <EducationHeading
                 heading="Competitive Gaming"
@@ -259,7 +226,7 @@ function AboutMe() {
                     </h1>
                     <p> I am Prince Gerald Asilo, Second year IT student at Batangas State University.
                     </p>
-                    <p> I chose Information and Communication Technology because I was curious about anything that had to do with the internet and As an aspiring full-stack developer, I am constantly working on my skills and expanding my knowledge in a variety of programming languages because technology never stops growing.</p>
+                    <p> I chose Information and Communication Technology because I love technology and I was curious about anything that had to do with the internet and As an aspiring full-stack developer, I am constantly working on my skills and expanding my knowledge in a variety of programming languages because technology never stops growing.</p>
                 </div>
             </div>
             <div
@@ -267,7 +234,7 @@ function AboutMe() {
 
             >
                 <div>
-                    <h3>Education</h3>
+                    <h3 className='edu-h3'>Education</h3>
                 </div>
                 <div className="education-content">
                     <div className="education-card">

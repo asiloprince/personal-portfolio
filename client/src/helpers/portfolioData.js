@@ -6,7 +6,7 @@ const portfolioData = [
         link: 'https://chizzquiz.herokuapp.com',
         title: 'Quiz Web Application',
         summary: 'A quiz application designed to Check your Python learning with Real Python’s interactive quizzes.',
-        tech: 'Django, Ajax, Bootstrap, Sqlite',
+        tech: 'Django | Ajax | Bootstrap | Sqlite',
 
 
     },
@@ -15,7 +15,7 @@ const portfolioData = [
         link: '#',
         title: 'Personal Portfolio',
         summary: 'A Personal Portfolio website to showcase all my details and projects at one place.',
-        tech: 'ReactJS, NodeJS, Bootstrap',
+        tech: 'ReactJS | NodeJS  | Bootstrap',
 
 
     },

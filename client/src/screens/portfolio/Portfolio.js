@@ -27,14 +27,15 @@ function Portfolio() {
                     </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
+                    <Image src={data.image} style={{ width: "100px" }} />
+                    <br />
                     {data.summary}
-                    <Image src={data.image} style={{ width: "200px" }} />
                 </Modal.Body>
                 <a id='portfolio-modal-link' href={data.link} target='blank' rel='noreferrer'>Go to site</a>
                 <Modal.Footer>
                     <div>
                         Technologies used:
-                        <p style={{ fontSize: '0.7rem', marginRight: 'auto' }}>{data.tech}</p>
+                        <p style={{ fontSize: '0.7rem' }}>{data.tech}</p>
                     </div>
                     <Button onClick={() => setModalShow(false)}>Close</Button>
                 </Modal.Footer>
@@ -68,10 +69,10 @@ function Portfolio() {
 
     return (
         <div className='portfolio-main-container' id='portfolio'>
-            <h1>Featured Projects</h1>
+            <h1 className='edu-h3'>Featured Projects</h1>
 
-            <Container fluid='lg' style={{ padding: '2rem 0' }}>
-                <Row>
+            <Container fluid='sm' style={{ padding: '2rem 0' }}>
+                <Row className='row'>
                     {mapped}
                 </Row>
 

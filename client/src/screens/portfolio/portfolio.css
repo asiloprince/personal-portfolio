@@ -13,6 +13,7 @@
     width: 50%;
     padding: 10px;
     border: none;
+    border-radius: 30px;
    
   }
   
@@ -51,5 +52,23 @@
       width: 100%;
       padding: 0.5rem 2.5rem;
       border: none;
+      margin-left: 12px;
+      border-radius: 30px;
+      
+
     }
+    .row{
+      display: flex;
+      flex-wrap: wrap;
+      margin: auto;
+      width: 100%;
+      align-items: center;
+    
   }
+  }
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+  	margin-right: -15px;
+    margin-left: -15px;
+}

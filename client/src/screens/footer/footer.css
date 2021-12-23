@@ -1,6 +1,6 @@
 .footer-container{
     background-color: var(--nav-color);
-    margin-top: 2%;
+    margin-top: 3%;
     height: 69vh;
   }
   .footer-content{
@@ -32,8 +32,8 @@
 
 .footer-link{
   display: flex;
-  background: #e3edf7;
-  opacity: 0.5;
+  background: #e3f5f7;
+  opacity: 0.8;
   height: 30px;
   width: 30px;
   margin: 0 15px;
@@ -42,3 +42,11 @@
   justify-content: center;
   content: icon;
 }
+@media screen and (max-width: 414px) {
+  .footer-paragraph {
+    font-size:x-small;
+  }
+}
+
+
+

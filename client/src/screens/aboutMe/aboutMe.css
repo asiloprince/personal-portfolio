@@ -4,10 +4,14 @@
   bottom: 5vh;
   width: 90%;
   margin:auto;
-  margin-bottom: 10px;
+  margin-bottom: 3px;
   flex-direction: row;
   box-shadow: 0 0px 20px -2px #1f2235;
 
+}
+.edu-h3{
+  color: #04042C;
+  font-weight: 800;
 }
 .aboutme-container{
 margin: 3rem 0;
@@ -15,8 +19,9 @@ display: flex;
 flex-direction: row;
 justify-content: space-evenly;
 align-items: center;
-background-color: var(--nav-color);
-height: 100%;
+background-image: linear-gradient(
+  101deg, #04042C, #002F57 52%,#00577D, #00839A);;
+height: 100vh;
 
 
 
@@ -29,9 +34,9 @@ height: 100%;
   width: 50%;
   object-fit: contain;
   margin: auto;
-  margin-top: 10px;
-  padding: 10px;
-  box-shadow: 0 0px 5px -2px #1f2235;
+  margin-top: 7px;
+  padding: 8px;
+  box-shadow: 0 0px 5px -2px#221e41;
   margin-bottom: 1rem;
 
   
@@ -64,15 +69,28 @@ color: #fff;
 @media only screen and (max-width: 700px){
       .about-text{
           max-width: 300px;
+          font-size: medium;
       }  
       .card-person{
-        width:380px; /* you can use % */
+        width:300px; /* you can use % */
         height: auto;
     }
   }
+@media only screen and (max-width: 700px){
+      .about-text{
+          max-width: 300px;
+          font-size: small;
+      }  
+      .card-person{
+        width:250px; /* you can use % */
+        height: auto;
+    }
+  }
+  
 @media only screen and (max-width: 400px){
       .about-text{
           max-width: 250px;
+          font-size: small;
       }  
       .card-person{
         width:250px; /* you can use % */
@@ -106,7 +124,7 @@ color: #fff;
     }
     
     .education-bullets {
-      box-shadow: 15px 0 9px -15px #1f2235;
+      box-shadow: 15px 0 9px -15px  #04042C;
       height: 100%;
       width: 320px;
     }
@@ -150,7 +168,7 @@ color: #fff;
       display: flex;
       align-items: center;
       cursor: pointer;
-      background-color: var(--nav-color);
+      background-color: #04042C;
       height: 40px;
       margin: 15px 0;
       padding: 0 8px;
@@ -179,7 +197,7 @@ color: #fff;
       height: 90%;
       z-index: 1;
       border-radius: 12px;
-      background-color: var(--nav-color);
+      background-color: #04042C;
       position: absolute;
     }
     
@@ -239,12 +257,12 @@ color: #fff;
     }
     
     .heading-date {
-      background-color: var(--nav-color);
+      background-color:  #03befc;
       padding: 4px 12px;
       font-size: 14px;
       border-radius: 14px;
       font-weight: 500;
-      color: #03befc;
+      color: #fff;
     }
     
     .skill-parent {

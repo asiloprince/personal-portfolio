@@ -38,7 +38,7 @@ router.post('/contact', (req, res) => {
     transporter.sendMail(mailOptions, (error) => {
         try {
             if (error) return res.status(400).json({ msg: 'Please fill up all the fields' })
-            res.status(200).json({ msg: 'Thank you for reaching out to me!' })
+            res.status(200).json({ msg: 'Thank you for getting in touch with me!' })
 
         } catch (error) {
             if (error) return res.status(500).json({ msg: "There is Server error" })

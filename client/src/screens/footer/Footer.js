@@ -24,14 +24,17 @@ function Footer() {
                     <a className='footer-link' href="https://www.facebook.com/">
                         <i className="fa fa-facebook-square " />
                     </a>
-                    <a className='footer-link' href="https://www.instagram.com/">
-                        <i className="fa fa-instagram " />
-                    </a>
                     <a className='footer-link' href="https://www.reddit.com/">
                         <i className="fa fa-reddit " />
                     </a>
+                    <a className='footer-link' href="https://www.linkedin.com/in/prince-asilo-83280321b/">
+                        <i className="fa fa-linkedin-square " />
+                    </a>
                 </div>
             </footer>
+            <div>
+
+            </div>
         </div>
     )
 }
