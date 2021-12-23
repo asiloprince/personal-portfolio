@@ -99,7 +99,7 @@ color: #fff;
   }
 @media only screen and (max-width: 300px){
       .about-text{
-          max-width: 200px;
+          max-width: 180px;
       }  
       .card-person{
         width:150px; /* you can use % */

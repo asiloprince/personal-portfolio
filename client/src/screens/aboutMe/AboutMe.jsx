@@ -139,7 +139,7 @@ function AboutMe() {
         <div className="education-screen-container" key="interests">
             <EducationHeading
                 heading="Reading"
-                description="I love reading Reddit threads, programming documentation, and story-like content such as novels, movies, and manga. Stories can get people's attention and make things easier to understand and remember. I believe that if I can study all the patterns of the story and give my output a story, there will be a big return."
+                description="I love reading Reddit threads, programming documentation, and story-like content such as novels, movies, and manga. Stories can get people's attention and make things easier to understand and remember."
             />
             <EducationHeading
                 heading="Technology"
@@ -147,7 +147,7 @@ function AboutMe() {
             />
             <EducationHeading
                 heading="Competitive Gaming"
-                description="Gaming is my other way to relax. Having an interactive gaming session, facing formidable opponents, and teamwork are what excite me the most while playing online games."
+                description="Having an interactive gaming session, facing formidable opponents, and teamwork are what excite me the most while playing online games."
             />
         </div>,
     ];

@@ -12,8 +12,8 @@ router.post('/contact', (req, res) => {
         host: 'smtp.ethereal.email',
         port: 587,
         auth: {
-            user: 'c42drytv6hjtta2g@ethereal.email',
-            pass: 'e5GU4AzM4N6KQr6fg6'
+            user: 'monserrate.boyle1@ethereal.email',
+            pass: 'B4NE5QfFJQUQgusvQD'
         },
         tls: {
             // do not fail on invalid certs
