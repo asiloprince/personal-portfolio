@@ -75,13 +75,13 @@ function ContactMe() {
 
                             <Typed
                                 strings={[
-                                    'Ooh! so you\'re Interested?',
+
                                     'Let\'s Work Together!',
                                 ]}
 
                                 typeSpeed={90}
-                                backSpeed={70}
-                                loop
+
+
                             />
 
                         </h2>

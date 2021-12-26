@@ -11,11 +11,12 @@ function Footer() {
                     <h6> <img className='logo-footer' src={logo} alt='LOGO icon' />Prince Gerald Asilo &copy; {new Date().getFullYear()}</h6>
 
                 </div>
-                <div className='footer-paragraph'>
-                    <p>EN . This website was developed by Prince Gerald Asilo. It cannot and should not be reproduced in any forms or by any means without the consent from him.</p>
+                <div className="footer-paragraph">
+                    <h3>Contact</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Batangas City</p>
+                    <p><i class="fas fa-phone"></i> Phone: +639663764307 </p>
+                    <p><i class="fas fa-envelope"></i> Email: <a href="mailto:asiloprincegerald@gmail.com">asiloprincegerald@gmail.com</a></p>
 
-                    <br />
-                    <p>TAG . Ang website na ito ay nilikha ni Prince Gerald Asilo. Ito ay hindi maaari at hindi dapat kopyahin sa anumang banhay o sa anumang paraan nang walang pahintulot galing sa kaniya.</p>
                 </div>
                 <div className='footer-icons'>
                     <a className='footer-link' href="https://github.com/asiloprince">
