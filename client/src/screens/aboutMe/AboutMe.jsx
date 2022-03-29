@@ -80,7 +80,7 @@ function AboutMe() {
         heading={"Batangas State University"}
         subHeading={"BACHELOR OF SCIENCE INFORMATION TECHNOLOGY"}
         fromDate={"2020"}
-        toDate={"2022"}
+        toDate={"Present"}
       />
       <EducationHeading
         heading={"Gulod Senior High School"}
@@ -136,7 +136,8 @@ function AboutMe() {
     <div className="education-screen-container" key="interests">
       <EducationHeading
         heading="Story"
-        description="I love reading Reddit threads, programming documentation, and story-like content such as novels, movies, and manga."
+        // Reddit threads, programming documentation, and
+        description="I love reading story-like content such as novels, movies, and manga."
       />
       <EducationHeading
         heading="Technology"
@@ -145,10 +146,6 @@ function AboutMe() {
       <EducationHeading
         heading="Design"
         description="Carefully Observe your surroundings and you'll find something to write about. I like Designing Things and Being Creative"
-      />
-      <EducationHeading
-        heading="Competitive Gaming "
-        description="I love having interactive gaming sessions, facing formidable opponents, and teamwork are what excite me the most while playing online games."
       />
     </div>,
   ];
@@ -243,9 +240,9 @@ function AboutMe() {
             {" "}
             I chose Information and Communication Technology because I love
             technology and I was curious about anything that had to do with the
-            internet and As an aspiring full-stack developer, I am constantly
-            working on my skills and expanding my knowledge in a variety of
-            programming languages because technology never stops growing.
+            internet and As an aspiring full-stack developer, I'm currently
+            looking for opportunities and constantly working on my skills and
+            expanding my knowledge in a variety of programming languages
           </p>
         </div>
       </div>
