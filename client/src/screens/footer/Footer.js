@@ -14,7 +14,7 @@ function Footer() {
                 <div className="footer-paragraph">
                     <h3>Contact</h3>
                     <p><i class="fas fa-map-marker-alt"></i> Batangas City</p>
-                    <p><i class="fas fa-phone"></i> Phone: +639663764307 </p>
+                    <p><i class="fas fa-phone"></i> Phone: +639561204435 </p>
                     <p><i class="fas fa-envelope"></i> Email: <a href="mailto:asiloprincegerald@gmail.com">asiloprincegerald@gmail.com</a></p>
 
                 </div>

@@ -78,7 +78,7 @@ function AboutMe() {
     <div className="education-screen-container" key="education">
       <EducationHeading
         heading={"Batangas State University"}
-        subHeading={"BACHELOR OF SCIENCE INFORMATION TECHNOLOGY"}
+        subHeading={"BS INFORMATION TECHNOLOGY - Business Analytics"}
         fromDate={"2020"}
         toDate={"Present"}
       />
