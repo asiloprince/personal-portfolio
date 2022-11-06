@@ -12,12 +12,13 @@ router.post("/contact", (req, res) => {
   }
 
   let transporter = nodemailer.createTransport({
-    // ethereal account email for dummy/ 'Ethereal is a fake SMTP service, mostly aimed at Nodemailer users (but not limited to). It's a completely free anti-transactional email service where messages never get delivered'
-    host: "smtp.ethereal.email",
-    port: 587,
+    host: "smtp.gmail.com", //you can use any service such as google OAuth2 this is for examples only
+    port: 465,
+    secure: true,
     auth: {
-      user: "moses16@ethereal.email",
-      pass: "bqEWmXSf4JS5NtSnn8",
+      type: "OAuth2", // defining the authentication type
+      user: "******************",
+      pass: "****************",
     },
     tls: {
       // do not fail on invalid certs
@@ -27,7 +28,7 @@ router.post("/contact", (req, res) => {
 
   let mailOptions = {
     from: data.email,
-    to: "asiloprincegerald@gmail.com",
+    to: "asiloprince@example.com", //your email here
     subject: `message from ${data.name}`,
     html: `
 <h3>Informations</h3>
